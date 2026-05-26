@@ -1,0 +1,9 @@
+{
+  "name": "Default Cat",
+  "author": "Desktop Cat",
+  "version": "1.0",
+  "idle":     ["idle_01.png", "idle_02.png", "idle_03.png", "idle_04.png"],
+  "walk":     ["walk_01.png", "walk_02.png", "walk_03.png", "walk_04.png"],
+  "sleep":    ["sleep_01.png", "sleep_02.png"],
+  "interact": ["idle_01.png", "idle_02.png"]
+}
