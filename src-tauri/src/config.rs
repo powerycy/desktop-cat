@@ -22,7 +22,7 @@ impl Default for AppConfig {
             work_interval_minutes: 45,
             rest_duration_minutes: 5,
             rest_mode: "A".to_string(),
-            active_sprite_set: "default-cat".to_string(),
+            active_sprite_set: "暴躁喵".to_string(),
             autostart: false,
             pet_scale: 1.0,
         }

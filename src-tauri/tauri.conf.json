@@ -51,7 +51,6 @@
       "icons/icon.ico"
     ],
     "resources": {
-      "resources/presets/default-cat/*": "presets/default-cat/",
       "resources/sprites/爱坤/*": "sprites/爱坤/",
       "resources/sprites/暴躁喵/*": "sprites/暴躁喵/",
       "icons/32x32.png": "tray-icon.png"

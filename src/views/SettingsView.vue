@@ -18,7 +18,7 @@ const config = ref<Config>({
   work_interval_minutes: 45,
   rest_duration_minutes: 5,
   rest_mode: 'A',
-  active_sprite_set: 'default-cat',
+  active_sprite_set: '暴躁喵',
   autostart: false,
   pet_scale: 1.0,
 })

@@ -4,7 +4,7 @@ use tauri::{AppHandle, Manager};
 
 #[tauri::command]
 pub fn get_sprite_sets(app: AppHandle) -> Result<Vec<String>, String> {
-    let mut sets: Vec<String> = vec!["default-cat".to_string()];
+    let mut sets: Vec<String> = vec![];
 
     // Scan all possible sprite directories
     let dirs_to_scan = vec![
@@ -39,19 +39,6 @@ pub fn get_sprite_sets(app: AppHandle) -> Result<Vec<String>, String> {
 
 #[tauri::command]
 pub fn get_sprite_dir(app: AppHandle, set_name: String) -> Result<String, String> {
-    if set_name == "default-cat" {
-        // Production: bundled in resource_dir/presets/default-cat
-        let resource_dir = app.path().resource_dir().map_err(|e| e.to_string())?;
-        let prod_path = resource_dir.join("presets").join("default-cat");
-        if prod_path.exists() {
-            return Ok(prod_path.to_string_lossy().replace('\\', "/"));
-        }
-        // Dev fallback
-        let dev_path = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"))
-            .join("resources").join("presets").join("default-cat");
-        return Ok(dev_path.to_string_lossy().replace('\\', "/"));
-    }
-
     // Custom sprites: check user data dir → bundled resources → dev path
     if let Ok(app_data) = app.path().app_data_dir() {
         let p = app_data.join("sprites").join(&set_name);
