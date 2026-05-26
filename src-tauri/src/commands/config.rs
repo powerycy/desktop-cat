@@ -23,7 +23,7 @@ pub fn get_config(app: AppHandle) -> Result<AppConfig, String> {
             .unwrap_or_else(|| "A".to_string()),
         active_sprite_set: store.get("active_sprite_set")
             .and_then(|v| v.as_str().map(String::from))
-            .unwrap_or_else(|| "default-cat".to_string()),
+            .unwrap_or_else(|| "暴躁喵".to_string()),
         autostart: store.get("autostart")
             .and_then(|v| v.as_bool())
             .unwrap_or(false),
