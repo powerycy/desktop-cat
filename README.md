@@ -77,6 +77,15 @@ npm run tauri build  # 打包构建
 
 ---
 
+## 联系作者
+
+- 邮箱：247133278@qq.com
+- 微信：loonges
+- QQ：247133278
+- 小红书 / B站：好奇的小逸
+
+---
+
 ## 📄 License
 
 [MIT](LICENSE)
