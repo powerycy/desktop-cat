@@ -13,13 +13,13 @@
 | 版本 | 适合谁 | 下载入口 | 状态 |
 |---|---|---|---|
 | **Windows 本地版 v0.1.0** | Windows 10 / 11 用户，需要本地桌面宠物和强制休息提醒 | [下载 Windows 安装包](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) | 已发布 |
-| **拦屏小可爱 AI iOS 版** | 想体验 AI 形象生成和 iOS 版本线的用户/开发者 | [下载 AI iOS 源码包](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.1.0.zip) · [查看分支](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production) | 生产包版本线准备中 |
+| **拦屏小可爱 AI iOS 版 v0.2.0** | 想体验 AI 形象生成和 iOS 版本线的用户/开发者 | [下载 AI iOS 源码包](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.2.0.zip) · [查看分支](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production) | 生产包版本线准备中 |
 
 更详细的选择说明见 [DOWNLOADS.md](DOWNLOADS.md)。
 
 ### 两个版本有什么区别？
 
-| 对比项 | Windows 本地版 v0.1.0 | 拦屏小可爱 AI iOS 版 |
+| 对比项 | Windows 本地版 v0.1.0 | 拦屏小可爱 AI iOS 版 v0.2.0 |
 |---|---|---|
 | 主要平台 | Windows 10 / 11 | iOS 版本线 |
 | 产品形态 | Tauri 桌面宠物，本地安装包 | AI 版本源码与交付文档 |

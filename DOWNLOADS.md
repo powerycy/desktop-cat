@@ -7,7 +7,7 @@
 | 你想要 | 请选择 | 下载 |
 |---|---|---|
 | 直接安装到 Windows 电脑 | Windows 本地版 v0.1.0 | [下载 `.exe` 安装包](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) |
-| 查看或二次开发 AI iOS 版本线 | 拦屏小可爱 AI iOS 版 | [下载源码 ZIP](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.1.0.zip) |
+| 查看或二次开发 AI iOS 版本线 | 拦屏小可爱 AI iOS 版 v0.2.0 | [下载源码 ZIP](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.2.0.zip) |
 | 在 GitHub 里看 AI 版本代码 | `codex/ios-ai-production` 分支 | [打开分支](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production) |
 
 ## Windows 本地版 v0.1.0
@@ -26,7 +26,7 @@
 
 下载：[Windows 本地版 v0.1.0 Release](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0)
 
-## 拦屏小可爱 AI iOS 版
+## 拦屏小可爱 AI iOS 版 v0.2.0
 
 English name: **Lanping Xiaokeai**
 
@@ -40,7 +40,7 @@ English name: **Lanping Xiaokeai**
 - 非商用许可证
 - 生产交付文档：架构、流程、权限、变量、AI 自动化和测试覆盖
 
-下载：[AI iOS 源码 ZIP](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.1.0.zip)
+下载：[AI iOS 源码 ZIP](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.2.0.zip)
 
 查看代码：[codex/ios-ai-production](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production)
 
