@@ -1,0 +1,24 @@
+{
+  "rest": [
+    "rest_01.png",
+    "rest_02.png",
+    "rest_03.png",
+    "rest_04.png"
+  ],
+  "sit": [
+    "sit_02.png",
+    "sit_04.png"
+  ],
+  "sleep": [
+    "sleep_01.png",
+    "sleep_02.png",
+    "sleep_03.png",
+    "sleep_04.png"
+  ],
+  "walk": [
+    "walk_01.png",
+    "walk_02.png",
+    "walk_03.png",
+    "walk_04.png"
+  ]
+}

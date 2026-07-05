@@ -1,0 +1,18 @@
+{
+  "walk": [
+    "walk_01.png",
+    "walk_02.png",
+    "walk_03.png"
+  ],
+  "sit": [
+    "sit_01.png",
+    "sit_02.png"
+  ],
+  "sleep": [
+    "sleep_01.png"
+  ],
+  "rest": [
+    "rest_01.png",
+    "rest_02.png"
+  ]
+}
