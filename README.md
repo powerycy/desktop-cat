@@ -6,14 +6,20 @@
 
 ---
 
+## 支持项目
+
+如果 Desktop Cat / 拦屏小可爱帮你减少久坐、提醒休息，欢迎点一个 **Star** 支持项目继续更新。
+
+⭐ [点 Star 支持 Desktop Cat](https://github.com/powerycy/desktop-cat)
+
 ## 版本选择
 
-这个仓库现在保留两条版本线，用户可以按自己的设备和用途下载：
+按你的设备和用途选择下载：
 
-| 版本 | 适合谁 | 下载入口 | 状态 |
-|---|---|---|---|
-| **Windows 本地版 v0.1.0** | Windows 10 / 11 用户，需要本地桌面宠物和强制休息提醒 | [下载 Windows 安装包](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) | 已发布 |
-| **拦屏小可爱 AI iOS 版 v0.2.0** | 想体验 AI 形象生成和 iOS 版本线的用户/开发者 | [下载 AI iOS 源码包](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.2.0.zip) · [查看分支](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production) | 生产包版本线准备中 |
+| 版本 | 适合谁 | 下载 |
+|---|---|---|
+| **Windows 本地版 v0.1.0** | Windows 10 / 11 用户，需要本地桌面宠物和强制休息提醒 | [下载 Windows 安装包](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) |
+| **拦屏小可爱 AI iOS 版 v0.2.0** | 想体验 AI 形象生成和移动端版本线的用户 | [下载 AI iOS 版](https://github.com/powerycy/desktop-cat/releases/tag/ai-ios-v0.2.0) |
 
 更详细的选择说明见 [DOWNLOADS.md](DOWNLOADS.md)。
 
@@ -21,11 +27,10 @@
 
 | 对比项 | Windows 本地版 v0.1.0 | 拦屏小可爱 AI iOS 版 v0.2.0 |
 |---|---|---|
-| 主要平台 | Windows 10 / 11 | iOS 版本线 |
-| 产品形态 | Tauri 桌面宠物，本地安装包 | AI 版本源码与交付文档 |
-| 核心能力 | 桌宠、托盘、开机自启、全屏休息遮罩、自定义 PNG 皮肤 | 在保留健康提醒能力基础上，新增 AI 形象生成和生产交付文档 |
-| 下载方式 | GitHub Releases 下载 `.exe` | 下载源码包或切换到 `codex/ios-ai-production` 分支 |
-| 是否影响旧版 | 保留为 `v0.1.0` 标签和 Release | 独立分支，不覆盖 Win 版 |
+| 主要平台 | Windows 10 / 11 | iOS / AI 版本线 |
+| 产品形态 | 桌面安装包 | AI 形象生成版本包 |
+| 核心能力 | 桌宠、托盘、开机自启、全屏休息遮罩、自定义 PNG 皮肤 | AI 生成桌宠形象、健康提醒、本地统计 |
+| 下载方式 | GitHub Releases 下载 `.exe` | GitHub Releases 下载 v0.2.0 包 |
 
 ## 为什么选 Desktop Cat？
 
@@ -60,7 +65,7 @@
 
 如果你要安装 Windows 本地版，前往 [Windows 本地版 v0.1.0 Release](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) 下载 `.exe` 安装包，双击安装即可。
 
-如果你要查看 AI iOS 版本线，前往 [DOWNLOADS.md](DOWNLOADS.md) 选择源码包或分支。
+如果你要下载拦屏小可爱 AI iOS 版，前往 [AI iOS 版 v0.2.0 Release](https://github.com/powerycy/desktop-cat/releases/tag/ai-ios-v0.2.0)。
 
 **系统要求：** Windows 10 / 11
 
@@ -106,9 +111,3 @@ npm run tauri build  # 打包构建
 - 微信：loonges
 - QQ：247133278
 - 小红书 / B站：好奇的小逸
-
----
-
-## 📄 License
-
-当前版本采用非商用许可证，详见 [LICENSE](LICENSE)。历史 Windows v0.1.0 Release 保留其发布时的许可证文件。
