@@ -4,7 +4,7 @@
 
 English name: **Lanping Xiaokeai**
 
-本项目基于 `powerycy/desktop-cat` 改造。本分支用于新增 **AI iOS 生产版交付包**，保留上一次 Windows 本地版本的内容和历史，不作为现有网站入口的替换。
+本项目基于 `powerycy/desktop-cat` 改造。本分支用于新增 **AI iOS 生产版交付包 v0.2.0**，保留上一次 Windows 本地版本的内容和历史，不作为现有网站入口的替换。
 
 完整交付说明见 [`documentation/architecture.md`](documentation/architecture.md)。
 
@@ -70,7 +70,7 @@ npm run tauri dev
 
 ## 版本说明
 
-这次上传定位为 `ios-ai-production` 版本线，用来承载 AI 形象生成、健康提醒和生产包交付文档。当前仓库仍保留 Windows/Tauri 本地版能力；如果后续要发布 iOS 原生包，需要继续补齐 iOS 打包配置。
+这次上传定位为 `ios-ai-production` 版本线，版本号为 `0.2.0`，用来承载 AI 形象生成、健康提醒和生产包交付文档。当前仓库仍保留 Windows/Tauri 本地版能力；如果后续要发布 iOS 原生包，需要继续补齐 iOS 打包配置。
 
 ## License
 

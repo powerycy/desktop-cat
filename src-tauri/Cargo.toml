@@ -1,6 +1,6 @@
 [package]
 name = "desktop-cat"
-version = "0.1.0"
+version = "0.2.0"
 description = "Desktop Cat - A cute pet with forced rest reminders"
 authors = ["you"]
 edition = "2021"

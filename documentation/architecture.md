@@ -2,7 +2,7 @@
 
 ## 产品概览
 
-拦屏小可爱，English name: **Lanping Xiaokeai**，是基于 `powerycy/desktop-cat` 改造的健康提醒桌宠。这个版本线用于 AI iOS 生产版交付包，不删除或替换上一次 Windows 本地版本。
+拦屏小可爱，English name: **Lanping Xiaokeai**，是基于 `powerycy/desktop-cat` 改造的健康提醒桌宠。这个版本线用于 AI iOS 生产版交付包 v0.2.0，不删除或替换上一次 Windows 本地版本。
 
 当前代码事实：
 
