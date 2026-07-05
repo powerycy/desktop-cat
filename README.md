@@ -6,6 +6,27 @@
 
 ---
 
+## 版本选择
+
+这个仓库现在保留两条版本线，用户可以按自己的设备和用途下载：
+
+| 版本 | 适合谁 | 下载入口 | 状态 |
+|---|---|---|---|
+| **Windows 本地版 v0.1.0** | Windows 10 / 11 用户，需要本地桌面宠物和强制休息提醒 | [下载 Windows 安装包](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) | 已发布 |
+| **拦屏小可爱 AI iOS 版** | 想体验 AI 形象生成和 iOS 版本线的用户/开发者 | [下载 AI iOS 源码包](https://github.com/powerycy/desktop-cat/archive/refs/tags/ai-ios-v0.1.0.zip) · [查看分支](https://github.com/powerycy/desktop-cat/tree/codex/ios-ai-production) | 生产包版本线准备中 |
+
+更详细的选择说明见 [DOWNLOADS.md](DOWNLOADS.md)。
+
+### 两个版本有什么区别？
+
+| 对比项 | Windows 本地版 v0.1.0 | 拦屏小可爱 AI iOS 版 |
+|---|---|---|
+| 主要平台 | Windows 10 / 11 | iOS 版本线 |
+| 产品形态 | Tauri 桌面宠物，本地安装包 | AI 版本源码与交付文档 |
+| 核心能力 | 桌宠、托盘、开机自启、全屏休息遮罩、自定义 PNG 皮肤 | 在保留健康提醒能力基础上，新增 AI 形象生成和生产交付文档 |
+| 下载方式 | GitHub Releases 下载 `.exe` | 下载源码包或切换到 `codex/ios-ai-production` 分支 |
+| 是否影响旧版 | 保留为 `v0.1.0` 标签和 Release | 独立分支，不覆盖 Win 版 |
+
 ## 为什么选 Desktop Cat？
 
 市面上的桌面宠物软件大多是摆设，Desktop Cat 有三点真正不同：
@@ -37,7 +58,9 @@
 
 ## 📥 下载安装
 
-前往 [Releases](../../releases) 页面下载最新版 `.exe` 安装包，双击安装即可。
+如果你要安装 Windows 本地版，前往 [Windows 本地版 v0.1.0 Release](https://github.com/powerycy/desktop-cat/releases/tag/v0.1.0) 下载 `.exe` 安装包，双击安装即可。
+
+如果你要查看 AI iOS 版本线，前往 [DOWNLOADS.md](DOWNLOADS.md) 选择源码包或分支。
 
 **系统要求：** Windows 10 / 11
 
@@ -88,4 +111,4 @@ npm run tauri build  # 打包构建
 
 ## 📄 License
 
-[MIT](LICENSE)
+当前版本采用非商用许可证，详见 [LICENSE](LICENSE)。历史 Windows v0.1.0 Release 保留其发布时的许可证文件。
